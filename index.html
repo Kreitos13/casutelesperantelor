@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociația Casutele Sperantelor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/Logo_web.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./assets/Logo.jpg" alt="Logo Asociația Prietenii Animalelor" class="logo">
+            <ul class="navbar">
+                <li><a href="#home">Acasă</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#articole">Articole</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Bun venit la Asociația Casutele Sperantelor</h1>
+        <p>Ajutăm animalele abandonate să aibă o casă iubitoare!</p>
+    </section>
+
+    <section id="galerie">
+        <h2>Galerie</h2>
+        <div class="gallery">
+            <img src="./assets/perrofeliz.jpg" alt="Cățeluș fericit">
+            <img src="./assets/gato.jpg" alt="Pisică jucăușă">
+            <img src="./assets/casaparaanmales.jpg" alt="Adăpost pentru animale">
+        </div>
+    </section>
+
+    <section id="articole">
+        <h2>Articole</h2>
+        <div id="articles-container">
+            <article>
+                <h3>Proiect finalizat: Casa pentru căței</h3>
+                <p>Am construit recent un nou adăpost pentru cățeii din Câmpulung Muscel. Mulțumim tuturor voluntarilor!</p>
+            </article>
+        </div>
+        <button id="add-article">Adaugă articol</button>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Nume:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Trimite</button>
+        </form>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
